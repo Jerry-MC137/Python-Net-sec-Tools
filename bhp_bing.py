@@ -10,7 +10,7 @@ import json
 import socket
 import urllib
 
-API_KEY = '698c293e56cb4ecc8f0114a364e855f3'
+API_KEY = '**********************' # insert api key TODO: write and comment out key file
 API_HOST = 'api.bing.microsoft.com'
 
 
