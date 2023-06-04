@@ -80,3 +80,4 @@ class BHPFuzzer(IIntruderPayloadGenerator):
 
         return front
     
+    
