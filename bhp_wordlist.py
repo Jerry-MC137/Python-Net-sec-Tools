@@ -102,4 +102,5 @@ class BurpExtender(IBurpExtender, IContextMenuFactory):
                 print(password)
 
         return
+    
 
