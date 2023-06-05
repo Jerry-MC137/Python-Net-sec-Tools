@@ -62,3 +62,4 @@ if __name__ == '__main__':
     for _ in range(THREADS):
         t = threading.Thread(target=dir_bruter, args=(words,))
         t.start()
+        
