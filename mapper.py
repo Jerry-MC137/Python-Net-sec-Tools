@@ -69,3 +69,4 @@ if __name__ == '__main__':
         while not answers.empty():
             f.write(f'{answers.get()}\n')
     print('done')
+    
