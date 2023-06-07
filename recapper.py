@@ -75,3 +75,4 @@ if __name__ == '__main__':
     recapper = Recapper(pfile)
     recapper.get_responses()
     recapper.write('image')
+    
