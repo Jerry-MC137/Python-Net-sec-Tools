@@ -72,4 +72,5 @@ if __name__ == '__main__':
     b = Bruter('jerrey', TARGET)
     words = get_words()
     b.run_bruteforce(words)
+    
 
