@@ -1,5 +1,5 @@
 # PYTHON NETWORK SECURITY TOOLS
-This is a compilation of network security tools derived from the book "Black Hat Python" with some slight adjustments. The collection encompasses a variety of tools, starting from a basic TCP client and progressing to more robust ones, designed for offensive use in identifying and monitoring security vulnerabilities within a system. It is important to note that these tools are solely intended for educational purposes and should never be employed for any malicious activities, as doing so may result in severe legal consequences.
+This is a compilation of network security tools developed in python. The collection encompasses a variety of tools, starting from a basic TCP client and progressing to more robust ones, designed for offensive use in identifying and monitoring security vulnerabilities within a system. It is important to note that these tools are solely intended for educational purposes and should never be employed for any malicious activities, as doing so may result in severe legal consequences.
 ## Arper
 ARP spoofing, also known as ARP cache poisoning, is a well-established and highly effective technique. The Address Resolution Protocol (ARP) serves as a widely used communication protocol, responsible for translating internet layer addresses into corresponding link layer addresses.
 

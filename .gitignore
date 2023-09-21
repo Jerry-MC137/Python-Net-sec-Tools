@@ -2,3 +2,5 @@
 /BHPvenv3
 /.vscode
 test_rsa.key
+shellcode.bin
+shellcode.raw
