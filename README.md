@@ -25,8 +25,6 @@ The key to successful online password guessing lies in assembling an appropriate
 When targeting a custom web application or a complex e-commerce system, it's common to be unaware of all the files accessible on the webserver. To maximize your understanding of the web application's structure, you can employ a spider that systematically navigates through the target website, uncovering various components. However, in many instances, your goal will be to obtain configuration files or remnants of development that may contain sensitive information or expose unintended functionality.
 
 To discover such content, you'll need to utilize a brute-forcing tool designed to search for commonly used filenames and directories. This tool allows you to systematically and exhaustively search for specific files or directories that may reveal valuable information or provide unexpected access to the system. By employing this approach, you increase your chances of finding hidden resources or configuration files that the software developer did not intend to expose.
-## Detector
-
 
 ## Mail Sniffer
 This tool serves as a straightforward email sniffer designed to capture credentials for protocols like Simple Mail Transfer Protocol (SMTP), Post Office Protocol (POP3), and Internet Message Access Protocol (IMAP). By utilizing this mail sniffer, it becomes possible to intercept and acquire login information from these protocols.
@@ -45,9 +43,6 @@ This tool is specifically designed as a scanner to identify and locate all acces
 Netcat is widely regarded as a versatile networking tool that can perform a multitude of functions, making it akin to a swiss army knife for network operations. Consequently, savvy system administrators often opt to remove it from their systems to prevent potential misuse. However, if an attacker manages to gain access to a system, having Netcat installed would provide them with significant capabilities. With Netcat, an attacker can read and write data across the network, enabling them to execute remote commands, transfer files, or even establish a remote shell.
 
 In many instances, you may encounter servers that lack Netcat but have Python installed. To overcome this limitation, this tool serves as a straightforward network client and server, designed to mimic the functionality of Netcat. It allows you to accomplish tasks such as pushing files or establishing a listener that provides command-line interface (CLI) access. By leveraging this tool, you can achieve similar functionality to Netcat even on systems where it is not present.
-## Recapper
-
-## Scanner
 
 ## TCP Client
 A TCP client is responsible for initiating a connection request to a TCP server, enabling the establishment of a connection between the client and server. In the context of penetration testing, there are numerous occasions where there is a need to quickly create a TCP client for various purposes. These can include testing services, sending random or malformed data (fuzzing), or performing other tasks relevant to the assessment.
@@ -72,4 +67,4 @@ By implementing your own TCP server, you have full control over the communicatio
 UDP finds extensive usage on the Internet, particularly for time-sensitive transmissions like DNS lookups and video playback. By omitting the need to establish a connection before transmitting data, UDP facilitates faster communication. This allows for rapid delivery of data. However, this speed comes with the trade-off of potential packet loss during transmission. As a result, UDP can be vulnerable to attacks such as DDoS (Distributed Denial of Service), where an attacker intentionally floods the network with UDP packets, causing disruptions or exploitation of vulnerabilities.
 
 ## Wordpress Killer
-This is a simple brute forcer tool useful agains wordpress. Mordern wordpress systems include some basic anti-brute-force trechniques but stll lack account lockous or strong captchas by default making it a prime vecor for attacks.
+This tool is a straightforward brute force attack tool designed for targeting WordPress websites. While modern WordPress systems implement some basic anti-brute-force techniques, they still commonly lack features like account lockouts or strong CAPTCHAs by default. This makes them susceptible to attacks and serves as a prime target for exploiting vulnerabilities through brute force methods.
